@@ -1,9 +1,11 @@
-#inlude < stdio.h >
+#include <stdio.h>
 /*
- *main - putn out "Programming is like building a multilingual puzzle
+ * main input
+ *put out Programming is like building a multilingual puzzle
+ *return back to O (sucessful)
  */
 int main(void)
 {
-	putchar("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
