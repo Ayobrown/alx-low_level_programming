@@ -7,11 +7,10 @@
 int main(void)
 {
 	int i;
-
-	i = '0';
-		if (i <= 9, i++)
+		for (i = '0'; i <= 9)
 		{
 			printf("%d", i);
+			i++;
 		}
 	printf("\n");
 	return (0);
